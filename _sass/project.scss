@@ -1,0 +1,45 @@
+.project-detail-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px 0;
+
+    .project-image {
+        width: 40%;
+        padding: 5px;
+
+        @media only screen and (max-width: 768px) {
+            width: 100%;
+        }
+
+        img {
+            width: 100%;
+        }
+    }
+
+    .project-description {
+        width: 60%;
+        padding: 5px 20px;
+
+        @media only screen and (max-width: 768px) {
+            width: 100%;
+        }
+        
+        .project-info-title {
+            text-align: left !important;
+        }
+
+        .project-stacks,
+        .project-links {
+            list-style-type: none;
+            text-decoration: none;
+            display: flex;
+            
+            li {
+                padding: 0 5px;
+                margin: 0 5px;
+                border-radius: 5px;
+                background-color: #ccc;
+            }
+        }
+    }
+}

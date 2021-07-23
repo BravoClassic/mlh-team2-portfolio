@@ -1,0 +1,49 @@
+---
+title: Car Rentals
+layout: page
+---
+
+<div class="project-detail-container">
+    <div class="project-image">
+        <img src="/assets/img/projects/car-rent.jpg" alt="Car Rentals" />
+    </div>
+    <div class="project-description">
+        <div class='project-info'>
+            <h4 class="project-info-title">What it does</h4>
+            <p>
+                Car Rentals allows users to rent or hire cars of their choice, user can add cars to their favorite list as well
+            </p>
+
+            <h4 class="project-info-title">How it was built</h4>
+            <p>
+                I built the backend using Ruby-on-Rails with JSON Web Token for authorization and authentication.
+                And the frontend was built using React and Redux.
+            </p>
+
+
+            <h4 class="project-info-title">Challenge I ran into</h4>
+            <p>
+                After completing the app development, tested it locally everything worked as expected.
+                However, after pushing it to Heroku, I JWT used for authentication was not working as expected, spent the whole 
+                day troubleshooting this. Thanks to stackoverflow and google final was able to resolve it the next day. I did 
+                not include the secrets.yml file to target production environment.
+            </p>
+        </div>
+        
+        <ul class='project-stacks'>
+            <li>Rails API</li>
+            <li>RSpec</li>
+            <li>React</li>
+            <li>Redux</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Bootstrap</li>
+        </ul>
+        <ul class='project-links'>
+            <li><a href="https://github.com/acushlakoncept/car-rentals-client" target="_blank" rel="noopener noreferrer">
+                GitHub</a>
+            </li>
+            <li><a href="https://hire-a-car-client.herokuapp.com/" rel="noopener noreferrer">Demo</a></li>
+        </ul>
+    </div>
+</div>

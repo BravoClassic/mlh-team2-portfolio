@@ -4,10 +4,12 @@
 @import 'profile';
 @import 'page';
 @import 'links'; 
+@import 'project'; 
 
 .card-container {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   font-family: "Open Sans", sans-serif;
 }
 
