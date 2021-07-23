@@ -1,9 +1,18 @@
 - role: Associate Anaylst - Software Engineering
   company: Rancard Soluations Ltd
   dates: July - Aug 2021
-  logo: fellowship.svg
+  employee: Gerald Akorli
+  logo: rancard.jpeg
 
-- role: Pre Fellowship Fellow
-  company: MLH Fellowship
-  dates: Summer 2021
-  logo: fellowship.svg
+- role: Senoir Code Reviewer
+  company: Microverse
+  dates: May 2021 - Present
+  employee: Uduak Essien
+  logo: microverse.png
+
+- role: Fullstack Developer
+  company: Self Employed
+  dates: 2015 - Present
+  employee: Uduak Essien
+  logo: acushla.png
+
