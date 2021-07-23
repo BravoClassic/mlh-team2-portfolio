@@ -4,15 +4,16 @@
     display: flex; 
     justify-content: center; 
     align-items: center; 
-    border-top: 1px solid black; 
-    background-color: white;
+    background-color: #1d539f;
 }
 
 .fa {
     padding: 20px;
     width: 50px;
+    color: #eee;
 }
 
 .fa:hover {
     text-decoration: none;
+    color: #fff;
 }
