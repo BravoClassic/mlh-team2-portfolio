@@ -92,6 +92,10 @@ body.dark-theme {
     transition: all .3s ease-in;
   }
 
+  .experience-bg {
+      background-color: #333;
+  }
+
   a {
     color: #fff;
     transition: all .3s ease-in;
@@ -101,4 +105,9 @@ body.dark-theme {
     color: #aaa;
     transition: all .3s ease-in;
   }
+}
+
+.experience-bg {
+    background-color: #ebebeb9b;
+    padding: 20px 0;
 }

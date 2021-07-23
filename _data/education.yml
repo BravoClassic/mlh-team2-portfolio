@@ -1,6 +1,7 @@
 - course: BSc Computer Science
   institute: College of Idaho
   dates: 2021 - 2025
+  student: Gerald Akorli
   logo: uob.png
   
 - course: Pre Fellowship Fellow
@@ -11,5 +12,13 @@
 - course: International Baccalaureate (IB)
   institute: Mahindra United World College of India
   dates: 2019 - 2021
+  student: Gerald Akorli
   logo: uob.png
+
+- course: Software Developer 
+  institute: Microverse
+  dates: 2020 - 2021
+  student: Uduak Essien
+  logo: microverse.png
+
   
