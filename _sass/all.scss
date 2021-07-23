@@ -5,6 +5,7 @@
 @import 'page';
 @import 'links'; 
 @import 'project'; 
+@import 'contact'; 
 
 .card-container {
   display: flex;
@@ -66,6 +67,14 @@ a {
         font-size: small;
         color: #404040;
     }
+
+    .bio {
+        max-width: 400px;
+    }
+
+    .fa {
+        color: #1c539f
+    }
 }
 
 .icon {
@@ -101,10 +110,32 @@ body.dark-theme {
     transition: all .3s ease-in;
   }
 
-  .info .dates {
+  .info .dates, .fa {
     color: #aaa;
     transition: all .3s ease-in;
   }
+
+  .contact {
+    background-image: linear-gradient(99deg, rgba(0,0,0, .9) 0%, rgba(0,0,0, .9) 50%, transparent 50%), url(/assets/img/contact.jpg);
+
+}
+
+    .form {
+        color: #fff;
+
+        &__input {
+
+            &::-webkit-input-placeholder {
+                color: #fff;
+            }
+        }
+    }
+
+    .btn {
+        &--blue {
+            background-color: #999;
+        }
+    }
 }
 
 .experience-bg {

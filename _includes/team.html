@@ -7,17 +7,17 @@
       </div>
       <div class="info">
         <p class="title">{{ item.name }}</p>
-        <p class="dates">{{ item.bio }}</p>
+        <p class="info bio">{{ item.bio }}</p>
         {% if item.name == "Gerald Akorli" %}
 
           {% for weblink in site.data.links %}
-            <a href="{{ weblink.link }}" class="{{ weblink.logo }}"></a>
+            <a href="{{ weblink.link }}" class="{{ weblink.logo }}" target="_blank" rel="noopener noreferrer"></a>
           {% endfor %}
 
         {% else %}
 
           {% for weblink in site.data.links2 %}
-            <a href="{{ weblink.link }}" class="{{ weblink.logo }}"></a>
+            <a href="{{ weblink.link }}" class="{{ weblink.logo }}" target="_blank" rel="noopener noreferrer"></a>
           {% endfor %}
 
         {% endif %}

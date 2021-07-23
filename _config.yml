@@ -1,4 +1,4 @@
-title: "Gerald Akorli & Uduak Essien"
+title: "Gerald & Uduak"
 email: 
 description: >- # this means to ignore newlines until "baseurl:"
   This is my portfolio website!
@@ -13,4 +13,4 @@ sass:
 
 icon: /assets/img/icon.jpg
 # resume link
-resume: 
+resume: #
