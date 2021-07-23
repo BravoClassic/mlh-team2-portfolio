@@ -67,6 +67,14 @@ a {
         font-size: small;
         color: #404040;
     }
+
+    .bio {
+        max-width: 400px;
+    }
+
+    .fa {
+        color: #1c539f
+    }
 }
 
 .icon {
@@ -102,7 +110,7 @@ body.dark-theme {
     transition: all .3s ease-in;
   }
 
-  .info .dates {
+  .info .dates, .fa {
     color: #aaa;
     transition: all .3s ease-in;
   }
