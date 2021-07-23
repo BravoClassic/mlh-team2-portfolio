@@ -11,10 +11,8 @@ This project is a simple page with each members details and skills to be present
 
 - HTML
 - CSS
-- Stickler for CSS validation
-- FontAwesome
+- Ruby
 - SASS
-- Manifest
 
 ## Live Demo
 [Live Demo Link](#)
