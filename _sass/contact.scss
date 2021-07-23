@@ -60,3 +60,48 @@
         transform: translateY(-4rem);
     }
 }
+
+.btn {
+    &,
+    &:link,
+    &:visited {
+        text-transform: uppercase;
+        text-decoration: none;
+        padding: 1rem 2rem;
+        display: inline-block;
+        border-radius: .3rem;
+        transition: all .2s;
+        position: relative;
+        font-size: 12;    
+        
+        border: none;
+        cursor: pointer;
+
+        &:hover {
+            transform: translateY(-0.3rem);
+            box-shadow: 0 1rem 2rem rgba(255,255,255,.2);
+    
+            &::after {
+                transform: scaleX(1.4) scaleY(1.6);
+                opacity: 0;
+            }
+        }
+        
+        &:active,
+        &:focus {
+            outline: none;
+            transform: translateY(-0.1rem);
+            box-shadow: 0 .5rem 1rem rgba(255,255,255,.2);
+        }
+    }
+
+    &--blue {
+        background-color: #1c539f;
+        color: #fff;
+
+        &::after {
+            background-color:#1c539f;
+        }   
+    
+    }
+}
