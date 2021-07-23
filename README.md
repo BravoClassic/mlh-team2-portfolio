@@ -15,11 +15,11 @@ This project is a simple page with each members details and skills to be present
 - SASS
 
 ## Live Demo
-[Live Demo Link](#)
+[Live Demo Link](https://pensive-sammet-191f15.netlify.app/)
 
 
 ## Video Description
-[Video Description](#)
+[Video Description](https://youtu.be/sXM4PV20Xs8)
 
 ## Getting Started
 
