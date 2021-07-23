@@ -3,12 +3,24 @@
     {% for item in site.data.team %}
     <div class="card">
       <div class="icon">
-        <img src="./assets/img/education/{{ item.profile }}">
+        <img src="./assets/img/profile/{{ item.profile }}">
       </div>
       <div class="info">
         <p class="title">{{ item.name }}</p>
-        <p class="location">{{ item.institute }}</p>
-        <p class="dates">{{ item.dates }}</p>
+        <p class="dates">{{ item.bio }}</p>
+        {% if item.name == "Gerald Akorli" %}
+
+          {% for weblink in site.data.links %}
+            <a href="{{ weblink.link }}" class="{{ weblink.logo }}"></a>
+          {% endfor %}
+
+        {% else %}
+
+          {% for weblink in site.data.links2 %}
+            <a href="{{ weblink.link }}" class="{{ weblink.logo }}"></a>
+          {% endfor %}
+
+        {% endif %}
       </div>
     </div>
     {% endfor %}
