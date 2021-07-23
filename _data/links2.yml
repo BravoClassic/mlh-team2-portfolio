@@ -1,10 +1,10 @@
 - name: Facebook
   logo: fa fa-facebook
-  link: https://www.facebook.com/gerald-akorli.9
+  link: https://www.facebook.com/
 
 - name: Twitter
   logo: fa fa-twitter
-  link: https://www.twitter.com
+  link: https://www.twitter.com/acushlakoncept
 
 - name: Linkedin
   logo: fa fa-linkedin
@@ -12,8 +12,8 @@
 
 - name: Instagram 
   logo: fa fa-instagram
-  link: https://www.instagram.com/thegeraldism
+  link: https://www.instagram.com/
 
 - name: Github
   logo: fa fa-github
-  link: https://www.github.com/BravoClassic
+  link: https://www.github.com/acushlakoncept
